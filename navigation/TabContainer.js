@@ -40,11 +40,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : COLORS.grey
+                                tintColor: focused ? '#fffff' : "#808080"
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : COLORS.grey, fontSize: 12}}>
+                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
                             Home
                         </Text>
                     </View>
@@ -60,11 +60,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : COLORS.grey
+                                tintColor: focused ? '#fffff' : "#808080"
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : COLORS.grey, fontSize: 12}}>
+                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
                             Journal
                         </Text>
                     </View>
@@ -80,11 +80,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : 'grey'
+                                tintColor: focused ? '#fffff' : "#808080"
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : 'grey', fontSize: 12}}>
+                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
                             To Do
                         </Text>
                     </View>
@@ -100,11 +100,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : 'grey'
+                                tintColor: focused ? '#fffff' : "#808080"
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : 'grey', fontSize: 12}}>
+                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
                             Wallet
                         </Text>
                     </View>
