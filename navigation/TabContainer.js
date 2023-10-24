@@ -1,11 +1,11 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { COLORS } from "../assets/values/colors";
 
 import HomeScreen from "./screens/HomeScreen";
 import JournalScreen from "./screens/JournalScreen";
 import ToDoScreen from "./screens/ToDoScreen";
 import WalletScreen from "./screens/WalletScreen";
 import { View, Image, Text, StyleSheet } from "react-native";
+import Colors from "../assets/values/colors";
 
 
 const Tab = createBottomTabNavigator();
@@ -23,7 +23,7 @@ const Tabs = () => {
                     left: 0,
                     elevation: 0,
                     height: 60,
-                    backgroundColor: COLORS.bgcolor
+                    backgroundColor: Colors.BGCOLOR
 
                 }
             }}
@@ -40,11 +40,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : "#808080"
+                                tintColor: focused ? Colors.BLACK : Colors.GREY
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
+                            style={{color: focused ? Colors.BLACK : Colors.GREY, fontSize: 12}}>
                             Home
                         </Text>
                     </View>
@@ -60,11 +60,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : "#808080"
+                                tintColor: focused ? Colors.BLACK : Colors.GREY
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
+                            style={{color: focused ? Colors.BLACK : Colors.GREY, fontSize: 12}}>
                             Journal
                         </Text>
                     </View>
@@ -80,11 +80,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : "#808080"
+                                tintColor: focused ? Colors.BLACK : Colors.GREY
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
+                            style={{color: focused ? Colors.BLACK : Colors.GREY, fontSize: 12}}>
                             To Do
                         </Text>
                     </View>
@@ -100,11 +100,11 @@ const Tabs = () => {
                             style={{
                                 width: 25,
                                 height: 25,
-                                tintColor: focused ? '#fffff' : "#808080"
+                                tintColor: focused ? Colors.BLACK : Colors.GREY
                             }}
                         />
                         <Text 
-                            style={{color: focused ? '#fffff' : "#808080", fontSize: 12}}>
+                            style={{color: focused ? Colors.BLACK : Colors.GREY, fontSize: 12}}>
                             Wallet
                         </Text>
                     </View>

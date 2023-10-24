@@ -1,18 +1,20 @@
-export const COLORS = {
-    black: "#fffff",
-    white: "#FFF",
-    bgcolor: "#DEDAD7",
-    bgcolorCV: "#F3E9DD",
-    yellow: "#FFD75E",
-    blue: "#46679D",
-    green: "#04ce84",
-    mustard: "#ffbf37",
-    red: "#ED4D45",
-    navy: "#476494",
-    purple: "#c5a8c7",
-    skyblue: "#87b6e2",
-    moss: "#91c16b",
-    orange: "#fe9037",
-    pink: "#ffced9",
-    grey: "#808080"
-}
+const Colors = {
+    BLACK: "#fffff",
+    WHITE: "#FFF",
+    BGCOLOR: "#DEDAD7",
+    BGCOLORCV: "#F3E9DD",
+    YELLOW: "#FFD75E",
+    BLUE: "#46679D",
+    GREEN: "#04ce84",
+    MUSTARD: "#ffbf37",
+    RED: "#ED4D45",
+    NAVY: "#476494",
+    PURPLE: "#c5a8c7",
+    SKYBLUE: "#87b6e2",
+    MOSS: "#91c16b",
+    ORANGE: "#fe9037",
+    PINK: "#ffced9",
+    GREY: "#808080"
+};
+
+export default Colors;
